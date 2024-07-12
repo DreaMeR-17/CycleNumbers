@@ -6,14 +6,12 @@ namespace CycleNumbers
     {
         static void Main(string[] args)
         {
-            int maxValue = 999;
+            int requiredMaxNumber = 103;
             int stepForNumbers = 7;
 
-            for (int i = 5; i < maxValue; i += stepForNumbers)
+            for (int i = 5; i <= requiredMaxNumber; i += stepForNumbers)
             {
                 Console.WriteLine(i);
-                if(i >= 103)
-                    break;
             }
         }
     }
