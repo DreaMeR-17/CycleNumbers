@@ -6,10 +6,11 @@ namespace CycleNumbers
     {
         static void Main(string[] args)
         {
-            int requiredMaxNumber = 103;
-            int stepForNumbers = 7;
+            int maxNumber = 103;
+            int minNumber = 5;
+            int step = 7;
 
-            for (int i = 5; i <= requiredMaxNumber; i += stepForNumbers)
+            for (int i = minNubmer; i <= maxNumber; i += step)
             {
                 Console.WriteLine(i);
             }
